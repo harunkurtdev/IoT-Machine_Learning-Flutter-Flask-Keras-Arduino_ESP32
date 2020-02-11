@@ -1,0 +1,3 @@
+# IoT-Machine_Learning-Flutter-Flask-Keras-Arduino_ESP32
+Esp32 den gelen verileri Flask ile Kurulan Server a atarak gelen veriye işlemler yaptırmak ya da Flutter ile Nodemcuyu Kontrol Etmek amaç, Cloud kısmı ise Machine Learning kısmı ile birleşmiş olucak...
+
