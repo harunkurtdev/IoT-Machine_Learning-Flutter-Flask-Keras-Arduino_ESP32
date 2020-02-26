@@ -13,4 +13,4 @@ def api():
 #ilgili sayfa için başlatıcı
 if __name__ =='__main__':
     """app run diyerek flask ın çalışmasını başlatıyoruz localhost ve portumuzu giriyoruz"""
-    app.run(debug=True,host='localhost',port=9874)
+    app.run(debug=True,host='0.0.0.0',port=9874)

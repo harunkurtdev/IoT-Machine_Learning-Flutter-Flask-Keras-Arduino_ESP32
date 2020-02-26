@@ -37,9 +37,12 @@ model.add(Activation("relu"))
 model.add(Dropout(0.6))
 model.add(Dense(256))
 model.add(Activation("softmax"))
-
+# modelimizi oturt
 model.compile(optimizer='adam', loss = 'sparse_categorical_crossentropy', metrics=['accuracy'])
+#modelimizi eğit
 model.fit(giris,cikis, nb_epoch=50,batch_size=32,validation_split=0.13)
 
+# tahmini yapılacak veri
 tahmin = np.array([5,5,5,8,10,8,7,3]).reshape(1,8)
+#tahmin edilecek öğrenilen verilere göre çıktı ver...
 print(model.predict_classes(tahmin))
